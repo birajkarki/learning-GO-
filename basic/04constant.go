@@ -17,6 +17,8 @@ func main() {
 
 	fmt.Println(int64(d))
 
+	fmt.Println(int43(d))
+
 	fmt.Println(math.Sin(n))
 
 }
