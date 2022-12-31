@@ -8,6 +8,7 @@ func main() {
 	for i <= 3 {
 		fmt.Println(i)
 		i = i + 1
+		i = i + 2
 	}
 
 	for j := 7; j <= 9; j++ {
