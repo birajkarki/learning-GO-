@@ -112,7 +112,7 @@ func main() {
 	for line := range digits[1] {
 		// Print a line for each placeholder in digits
 		for digit := range digits {
-			fmt.Print(digits[digit][line], "  ")
+			fmt.Print(digis[digit][line], "  ")
 		}
 		fmt.Println()
 	}
