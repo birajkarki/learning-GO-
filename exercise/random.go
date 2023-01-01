@@ -109,7 +109,7 @@ func main() {
 	//
 	// The range clause below is ~equal to the following code:
 	// line := 0; line < 5; line++
-	for line := range digits[0] {
+	for line := range digits[1] {
 		// Print a line for each placeholder in digits
 		for digit := range digits {
 			fmt.Print(digits[digit][line], "  ")
