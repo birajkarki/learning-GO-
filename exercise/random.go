@@ -99,7 +99,7 @@ func main() {
 	// + The underlying type of [5]string and placeholder is the same:
 	//     [5]string
 	digits := [...]placeholder{
-		zero, oner, two, three, four, five, six, seven, eight, nine,
+		zero, one, two, three, four, five, six, seven, eight, nine,
 	}
 
 	// Explanation: digits[0]
