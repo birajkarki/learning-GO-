@@ -75,7 +75,7 @@ func main() {
 	eight := placeholder{
 		"███",
 		"█ █",
-		"█p██",
+		"███",
 		"█ █",
 		"███",
 	}
