@@ -99,7 +99,7 @@ func main() {
 	// + The underlying type of [5]string and placeholder is the same:
 	//     [5]string
 	digits := [...]placeholder{
-		zero, one, two, three, four, five, six, seven, eight, nine,
+		zero, one, two, three, four, five, six, seven, nine,
 	}
 
 	// Explanation: digits[0]
@@ -112,7 +112,7 @@ func main() {
 	for line := range digits[0] {
 		// Print a line for each placeholder in digits
 		for digit := range digits {
-			fmt.Print(digits[digit][line], "  ")
+			fmt.Print(digits[digit][line], "   ")
 		}
 		fmt.Println()
 	}
