@@ -5,8 +5,6 @@ import "fmt"
 func main() {
 	var (
 		phones map[string]string
-		// Key        : Last name
-		// Element    : Phone number
 
 		// Key        : Product ID
 		// Element    : Available / Unavailable
