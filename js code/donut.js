@@ -6,8 +6,7 @@
         var tmr1 = undefined, tmr2 = undefined;
         var A = 1, B = 1;
 
-        // This is copied, pasted, reformatted, and ported directly from my original
-        // donut.c code
+
         var asciiframe = function () {
             var b = [];
             var z = [];
