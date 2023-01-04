@@ -11,7 +11,7 @@
         var asciiframe = function () {
             var b = [];
             var z = [];
-            A += 0.07;
+            A += 0.08;
             B += 0.03;
             var cA = Math.cos(A), sA = Math.sin(A),
                 cB = Math.cos(B), sB = Math.sin(B);
