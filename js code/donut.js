@@ -12,7 +12,7 @@
             var b = [];
             var z = [];
             A += 0.08;
-            B += 0.03;
+            B += 0.09;
             var cA = Math.cos(A), sA = Math.sin(A),
                 cB = Math.cos(B), sB = Math.sin(B);
             for (var k = 0; k < 1760; k++) {
