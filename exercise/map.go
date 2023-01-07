@@ -10,7 +10,7 @@ func main() {
 		// Element    : Available / Unavailable
 		products map[int]bool
 
-		multiPhones map[string][]string
+
 		// Key        : Last name
 		// Element    : Phone numbers
 
